@@ -1,0 +1,40 @@
+.background{
+    position: relative;
+  }
+  .background::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .background_img img{
+    width: 100%;
+    height: 80vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+  
+  }
+  .background_header{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .background_header h2{
+    color:#fff;
+    font-weight: 600;
+    font-family: initial;
+    font-size: 60px;
+  }
+  .background_header h4{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 35px;
+    letter-spacing: 25px;
+    margin-left: 25px;
+    color: #e97979;
+  }
